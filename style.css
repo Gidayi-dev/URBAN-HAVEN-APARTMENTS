@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding:4px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --color-primary: #1e81b0;
+    --color-black: #21130d;
+}
+body{
+    font-size: 1.6rem;
+    font-color: var(--color-black); 
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    font-size: 4rem;
+    gap: 2rem;
+    align-items: center;
+}
+.nav_list-link{
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+/*hero section*/
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(./images/hero.jpg);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    
+}
+.hero_textbox{
+    text-align: center;
+}
+.hero_title{
+    font-size: 4.96rem;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+.hero_link{
+    display: inline-block;
+    text-transform: capitalize;
+    background-color: var(--color-primary);
+    font-size: 3rem;
+    text-decoration: none;
+    align-items: center;
+}
+/*end of hero section*/66
