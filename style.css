@@ -175,7 +175,7 @@ body{
     gap: 1rem;
 }
 .amenities-item{
-    width: 34rem;
+    width: 27rem;
     background-color: var(--color-secondary);
     border-radius: 4px;
     align-items: center;
