@@ -7,9 +7,8 @@ A responsive website for Urban Haven Apartments that provides information about 
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Usage](#usage)666666
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Responsive navigation bar with a logo and links to different sections.
@@ -26,10 +25,13 @@ A responsive website for Urban Haven Apartments that provides information about 
 ![Hero Section](./images/HOME.jpg)
 
 ### 2. About Us Section
-![About Us Section](./assets/about-us-section.png)
+![About Us Section](./images/about.jpg)
 
 ### 3. Amenities Section
 ![Amenities Section](./images/AMENITIES.jpg)
+
+### 4. Our Apartments Section
+![Our Apartments Section](./images/apart.jpg)
 
 ## Technologies Used
 - **HTML5**: Markup language for structuring content.
