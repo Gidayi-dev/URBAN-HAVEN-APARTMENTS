@@ -3,7 +3,7 @@
     margin: 0;
     padding:4px;
     box-sizing: border-box;
-}66
+}
 html{
     font-size: 62.5%;
 }
@@ -15,14 +15,13 @@ html{
     --color-hover:rgb(138, 84, 84);6
 }
 body{
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-color: var(--color-black); 
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
-
 .header{
     display: flex;
     justify-content: space-between;
@@ -100,8 +99,7 @@ body{
 /*about section*/
 .about_title{
     text-align: center;
-    margin-top: 1rem;
-    
+    margin-top: 1rem;  
 }
 .about-container{
     display: flex;
@@ -174,12 +172,11 @@ body{
     flex-wrap: wrap;
 }
 .amenities-item{
-    width: 23rem;
+    width: 24rem;
     background-color: var(--color-secondary);
     border-radius: 4px;
     align-items: center;
     margin-bottom: 1rem;
-
 }
 .amenities-item_images{
     width: 100%;
@@ -326,4 +323,4 @@ button:hover{
     .contact-form {
         margin-top: 1rem;
     }
-}666
+}
