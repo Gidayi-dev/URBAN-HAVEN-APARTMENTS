@@ -271,7 +271,7 @@ button:hover{
         flex-direction: column;
         gap: 1rem;
     }
-}
+}66
 
     /* Hero Section */
     @media screen and (max-width: 1173px){
@@ -287,11 +287,11 @@ button:hover{
 }
 
     /* About Us Section */
-    @media screen and (max-width: 2400px){
+    @media screen and (max-width: 1470px){
     .about-container {
         flex-direction: column;
         text-align: center;
-    }
+    }6
 
     .about-image {
         margin-bottom: 2rem;
