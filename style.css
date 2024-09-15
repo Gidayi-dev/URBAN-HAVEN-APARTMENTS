@@ -3,7 +3,7 @@
     margin: 0;
     padding:4px;
     box-sizing: border-box;
-}
+}66
 html{
     font-size: 62.5%;
 }
@@ -178,6 +178,7 @@ body{
     background-color: var(--color-secondary);
     border-radius: 4px;
     align-items: center;
+    margin-bottom: 1rem;
 
 }
 .amenities-item_images{
@@ -191,6 +192,9 @@ body{
     display: flex;
     gap: 20rem;
     padding: 2rem;
+    }
+    .title{
+        text-align: justify;
     }
 button{
     width: 7%;
@@ -245,5 +249,83 @@ button:hover{
         justify-content: center;
         flex-wrap: wrap;
     }
-}
+}6
 /* end of media screem */
+/* Media Query for medium screens */
+@media screen and (max-width: 1173px) {
+}
+
+/* 400 and below */
+@media screen and (max-width: 1173px) {
+    /*header for small screens */
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .header_nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav_list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+    /* Hero Section */
+    @media screen and (max-width: 1173px){
+    .hero {
+        height: auto;
+        padding: 2rem;
+        background-size: cover;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+    /* About Us Section */
+    @media screen and (max-width: 2400px){
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        margin-bottom: 2rem;
+    }
+
+    /* Amenities Section */
+    .amenities-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+}
+
+    /* Apartments Section */
+    @media screen and (max-width: 1460px){
+    .apartment-specifications-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .price-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Contact Section */
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .contact-form {
+        margin-top: 1rem;
+    }
+}
