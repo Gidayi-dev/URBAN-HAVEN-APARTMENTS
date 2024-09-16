@@ -7,7 +7,7 @@ A responsive website for Urban Haven Apartments that provides information about 
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)666666
+- [Usage](#usage)
 - [Contributing](#contributing)
 
 ## Features
