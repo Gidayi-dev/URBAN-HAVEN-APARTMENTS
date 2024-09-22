@@ -40,7 +40,7 @@ A responsive website for Urban Haven Apartments that provides information about 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/urban-haven-apartments.git
+    git clone https://github.com/gidayi-dev/urban-haven-apartments.git
     ```
 2. Navigate into the project directory:
     ```bash
